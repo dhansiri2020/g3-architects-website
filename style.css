@@ -8,3 +8,88 @@
     font-family: 'Merriweather', serif;
     font-family: 'Work Sans', sans-serif;
   }
+  .btn-primary{
+    width: 180px;
+    height: 64px;
+    color: aliceblue;
+    border-radius: 8px;
+    background: #FF900E;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+  }
+  header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    margin-right: 20px;
+  }
+  nav li{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .nav-menu{
+color: #424242;
+text-align: center;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 26px;
+  }
+  .nav-title{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;                                    
+  }
+  .bannar-content{
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .bannar-title{
+color:  #131313;
+text-align: center;
+font-size: 64px;
+font-weight: 700;
+
+  }
+  .bannar-description{
+color:  #727272;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+  }
+  .bannar{
+    /* margin: 200px 530px; */
+    align-items: center;
+    text-align: center;
+  }
+  .bannar img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: lightgray;
+  }
+  @media screen and (max-width:576px) {
+    header{
+      padding: 20px;
+    }
+    nav{
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 576px) and (max-width: 1100px){
+    header{
+      padding: 20px;
+     }
+    nav{
+     flex-direction: column;
+    }
+  }
